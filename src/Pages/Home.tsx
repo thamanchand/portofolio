@@ -19,7 +19,7 @@ const Home: React.FunctionComponent<{}> = () => {
           </Typography>
           <Typography variant="subtitle1" className={style.infoText}>
             Hello,<br />
-            I’m Thaman Chand. I have more than 8+ years of experience in web applications design and development.
+            I’m Thaman Chand. I have more than 10+ years of experience in web applications design and development.
             I have worked on a variety companies both medium and small. My core
             objective is to build products that deliver results, drive people and organisation performance.
           </Typography>
