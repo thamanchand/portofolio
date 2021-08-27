@@ -1,0 +1,14 @@
+export { default as Home } from './Home';
+export { default as About } from './About';
+export { default as Skill } from './Skill';
+export { default as Experience } from './Experience';
+export { default as Education } from './Education';
+export { default as Work } from './Work';
+export { default as Contact } from './Contact';
+export { default as Skills } from './Skills';
+export { default as Perukirajone } from './Perukirjakone';
+export { default as Blockbank } from './Blockbank';
+export { default as Testamenttikone } from './Testamenttikone';
+export { default as Testamenttikeskus } from './Testamenttikeskus';
+export { default as Muuvz } from './Muuvz';
+export { default as IISIFIXI } from './IISIFIX';
