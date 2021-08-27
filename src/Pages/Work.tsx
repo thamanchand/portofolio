@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import { Typography, Card, CardContent, CardMedia, Grid } from '@material-ui/core';
 import { WorkStyle } from '../Style/Index';
-import { Perukirajone, P2, P3, Blockbank, Muuvz, IISIFIX } from '../Constants/Images';
+import { Perukirajone, P2, P3, Blockbank, Muuvz, iisifixhomepage } from '../Constants/Images';
 
 const data = [
   { id: 1, url: 'perukirjakone', title: 'Perukirjakone', desc: 'Perukirjakone want to revolutionize last will by automating legal contracts.', image: Perukirajone, tags: 'React JS', live: true },
@@ -11,7 +11,7 @@ const data = [
   { id: 2, url: 'testamenttikone', title: 'Testamenttikone', desc: 'Automating last wish and funeral arrangement', image: P2, tags: 'React Native', live: false },
   { id: 3, url: 'blockbank', title: 'Blockbank', desc: 'Manage. Secure. Blockchain.', image: Blockbank, tags: 'React JS' },
   { id: 4, url: 'testamenttikeskus', title: 'Testamenttikeskus', desc: 'Automating legal testimonials', image: P2, tags: 'Python', live: true },
-  { id: 5, url: 'iisifixi', title: 'IISIFIXI', desc: 'Find, Compare and Book place to repair your car', image: IISIFIX, tags: 'Node JS', live: true },
+  { id: 5, url: 'iisifixi', title: 'IISIFIXI', desc: 'Find, Compare and Book place to repair your car', image: iisifixhomepage, tags: 'Node JS', live: true },
   { id: 6, url: 'aures', title: 'Aures', desc: 'Human resource management system', image: P3, tags: 'Angular', live: true },
 ]
 

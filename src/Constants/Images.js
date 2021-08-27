@@ -80,4 +80,7 @@ export { default as BlockbankLogo } from "../Images/blobkbank_logo.png";
 
 export { default as MuuvzBg } from "../Images/muuvz.jpeg";
 export { default as Muuvz } from "../Images/muuvz-home-page.png";
+
 export { default as IISIFIX } from "../Images/iisifix-logo.png";
+export { default as iisifixlisting } from "../Images/iisifix-listing.png";
+export { default as iisifixhomepage } from "../Images/iisifix-homepage.png";

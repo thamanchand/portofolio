@@ -7,9 +7,8 @@ import ListItemText from '@material-ui/core/ListItemText';
 
 import clsx from 'clsx';
 
-import { PerukirjakoneImg } from '../Constants/Images';
-import { Peruguideline } from '../Constants/Images';
-import { Peruwizard } from '../Constants/Images';
+import { iisifixhomepage } from '../Constants/Images';
+import { iisifixlisting } from '../Constants/Images';
 
 import { Grid, Typography } from '@material-ui/core';
 import { Workdetails } from '../Style/Index';
@@ -190,26 +189,19 @@ const IISIFIXI = () => {
           <CardMedia
             component="img"
             alt="Contemplative Reptile"
-            image={Peruguideline}
+            image={iisifixhomepage}
             title="Contemplative Reptile"
             className={style.media}
           />
-          <Typography variant="h4" className={style.brandingHeader}>Hero section</Typography>
+          <Typography variant="h4" className={style.brandingHeader}>Listing page</Typography>
           <CardMedia
             component="img"
             alt="Contemplative Reptile"
-            image={PerukirjakoneImg}
+            image={iisifixlisting}
             title="Contemplative Reptile"
             className={style.media}
           />
-          <Typography variant="h4" className={style.brandingHeader}>Wizard</Typography>
-          <CardMedia
-            component="img"
-            alt="Contemplative Reptile"
-            image={Peruwizard}
-            title="Contemplative Reptile"
-            className={style.media}
-          />
+
         </Grid>
       </Grid>
     </React.Fragment>
