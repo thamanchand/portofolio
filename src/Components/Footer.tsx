@@ -1,19 +1,15 @@
 import * as React from 'react';
 import { Grid, Typography } from '@material-ui/core';
 import {
-  LocationOnOutlined,
-  PhoneIphoneOutlined,
   EmailOutlined,
-  HomeOutlined
 } from '@material-ui/icons';
 import { makeStyles } from '@material-ui/core';
-import SvgIcon from '@material-ui/core/SvgIcon';
 import { Github, LinkedIn, Twitter } from '../Constants/Images';
 
 import { LogoTransparent } from '../Constants/Images';
 import colors from '../Constants/Colors';
 
-const Style = makeStyles(theme => ({
+const Style = makeStyles(() => ({
   container: {
     backgroundColor: colors.darkBlack,
     color: colors.snow,
@@ -115,13 +111,13 @@ const Footer: React.FC = () => {
             CONNECT
           </Typography>
           <div className={style.socialButtonContainer}>
-            <a href="https://github.com/thamanchand" target="_blank">
+            <a href="https://github.com/thamanchand" rel="noopener noreferrer" target="_blank">
               <img src={Github} alt="github" className={style.github} />
             </a>
-            <a href="https://www.linkedin.com/in/thamanchand/" target="_blank">
+            <a href="https://www.linkedin.com/in/thamanchand/" rel="noopener noreferrer" target="_blank">
               <img src={LinkedIn} alt="linkedin" className={style.linkedin} />
             </a>
-            <a href="https://twitter.com/In2Startup" target="_blank">
+            <a href="https://twitter.com/In2Startup" rel="noopener noreferrer" target="_blank">
               <img src={Twitter} alt="linkedin" className={style.linkedin} />
             </a>
           </div>

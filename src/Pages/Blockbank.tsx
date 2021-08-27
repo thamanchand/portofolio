@@ -18,7 +18,7 @@ const Blockbank = () => {
     <div className={style.root}>
       <div className={style.container}>
         <Typography variant="h6" className={style.headerText}>BLOCKBANK</Typography>
-        <a href="https://blockbank.fi" target="_blank" className={style.projectLink}>
+        <a href="https://blockbank.fi" rel="noopener noreferrer" target="_blank" className={style.projectLink}>
           <Typography variant="h6" >Visit</Typography>
         </a>
       </div>

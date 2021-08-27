@@ -20,7 +20,7 @@ const Testamenttikone = () => {
     <div className={style.root}>
       <div className={style.container}>
         <Typography variant="h6" className={style.headerText}>PERUKIRJAKONE</Typography>
-        <a href="https://www.perukirjakone.fi" target="_blank" className={style.projectLink}>
+        <a href="https://www.perukirjakone.fi" rel="noopener noreferrer" target="_blank" className={style.projectLink}>
           <Typography variant="h6" >Visit</Typography>
         </a>
       </div>
