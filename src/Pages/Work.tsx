@@ -3,19 +3,16 @@ import { Link } from 'react-router-dom';
 
 import { Typography, Card, CardContent, CardMedia, Grid } from '@material-ui/core';
 import { WorkStyle } from '../Style/Index';
-import { Perukirajone, P2, P3, Blockbank } from '../Constants/Images';
+import { Perukirajone, P2, P3, Blockbank, Muuvz, IISIFIX } from '../Constants/Images';
 
 const data = [
   { id: 1, url: 'perukirjakone', title: 'Perukirjakone', desc: 'Perukirjakone want to revolutionize last will by automating legal contracts.', image: Perukirajone, tags: 'React JS', live: true },
-  { id: 2, url: 'muuvz', title: 'Muuvz', desc: 'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica', image: P2, tags: 'React Native', live: false },
-  { id: 2, url: 'testamenttikone', title: 'Testamenttikone', desc: 'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica', image: P2, tags: 'React Native', live: false },
+  { id: 2, url: 'muuvz', title: 'Muuvz', desc: 'Search, Compare and Book moving vans', image: Muuvz, tags: 'React', live: false },
+  { id: 2, url: 'testamenttikone', title: 'Testamenttikone', desc: 'Automating last wish and funeral arrangement', image: P2, tags: 'React Native', live: false },
   { id: 3, url: 'blockbank', title: 'Blockbank', desc: 'Manage. Secure. Blockchain.', image: Blockbank, tags: 'React JS' },
-  { id: 4, url: 'testamenttikeskus', title: 'Testamenttikeskus', desc: 'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica', image: P2, tags: 'Angular', live: true },
-  { id: 5, url: 'iisifixi', title: 'IISIFIXI', desc: 'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica', image: Perukirajone, tags: 'Node JS', live: true },
-  { id: 6, url: 'aures', title: 'Aures', desc: 'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica', image: P3, tags: 'Angular', live: true },
-  { id: 7, url: 'northcatalyst', title: 'NorthCatalyst', desc: 'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica', image: P3, tags: 'Angular', live: true },
-  { id: 8, url: 'buzztatto', title: 'Buzztatto', desc: 'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica', image: P3, tags: 'Angular', live: true },
-  { id: 8, url: 'illustrations', title: 'Illustrations', desc: 'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica', image: P3, tags: 'Angular', live: true },
+  { id: 4, url: 'testamenttikeskus', title: 'Testamenttikeskus', desc: 'Automating legal testimonials', image: P2, tags: 'Python', live: true },
+  { id: 5, url: 'iisifixi', title: 'IISIFIXI', desc: 'Find, Compare and Book place to repair your car', image: IISIFIX, tags: 'Node JS', live: true },
+  { id: 6, url: 'aures', title: 'Aures', desc: 'Human resource management system', image: P3, tags: 'Angular', live: true },
 ]
 
 const Modal = ({ handleClose, show, content }) => {

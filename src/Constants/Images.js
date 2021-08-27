@@ -79,4 +79,5 @@ export { default as BlockbankHeadings } from "../Images/blockbank_headings.png";
 export { default as BlockbankLogo } from "../Images/blobkbank_logo.png";
 
 export { default as MuuvzBg } from "../Images/muuvz.jpeg";
-
+export { default as Muuvz } from "../Images/muuvz-home-page.png";
+export { default as IISIFIX } from "../Images/iisifix-logo.png";
