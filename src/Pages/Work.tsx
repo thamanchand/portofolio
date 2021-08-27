@@ -27,7 +27,6 @@ const Modal = ({ handleClose, show, content }) => {
         <span className={style.modal__close} onClick={handleClose} />
         <h3 className={style.modal__heading}>hello</h3>
         <div className={style.modal__content_portfolio}>
-          <img src="image.png" alt="react" className={style.image} />
           <Typography variant="body2" color="textSecondary" component="p">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
             <br />
@@ -53,19 +52,19 @@ const Work: React.FC<{}> = () => {
 
   const [showModal, setShowModal] = React.useState(false);
   const [selectedIndex, setIndex] = React.useState(0);
-  const [selectedContentId, setSelectedContentId] = React.useState(null);
+  // const [selectedContentId, setSelectedContentId] = React.useState(null);
 
   const filters = ['All', 'React JS', 'Redux', 'UI', 'Angular', 'Strapi'];
   const handleFilter = value => {
     setIndex(value);
   };
 
-  const showModalHandler = (id) => {
+ /* const showModalHandler = (id) => {
     console.log("showModalHandler", id)
     setSelectedContentId(id)
     document.body.style.overflowY = "hidden";
     setShowModal(true);
-  }
+  }*/
 
   const hideModalHandler = () => {
     document.body.style.overflowY = "auto";
@@ -113,7 +112,7 @@ const Work: React.FC<{}> = () => {
       <Modal
         show={showModal}
         handleClose={hideModalHandler}
-        content={data.filter(item => item.id === selectedContentId)}
+        content={null}
       />
     </div>
   );
