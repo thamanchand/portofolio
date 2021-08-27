@@ -77,3 +77,6 @@ export { default as Blockbank } from "../Images/blockbank.png";
 export { default as BlockbankColor } from "../Images/blockbank_colors.png";
 export { default as BlockbankHeadings } from "../Images/blockbank_headings.png";
 export { default as BlockbankLogo } from "../Images/blobkbank_logo.png";
+
+export { default as MuuvzBg } from "../Images/muuvz.jpeg";
+

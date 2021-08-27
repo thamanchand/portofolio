@@ -7,7 +7,7 @@ import ListItemText from '@material-ui/core/ListItemText';
 
 import clsx from 'clsx';
 
-import { PerukirjakoneImg } from '../Constants/Images';
+import { MuuvzBg } from '../Constants/Images';
 import { Peruguideline } from '../Constants/Images';
 import { Peruwizard } from '../Constants/Images';
 
@@ -19,7 +19,7 @@ const Testamenttikone = () => {
   return (
     <div className={style.root}>
       <div className={style.container}>
-        <Typography variant="h6" className={style.headerText}>PERUKIRJAKONE</Typography>
+        <Typography variant="h6" className={style.headerText}>Muuvz</Typography>
         <a href="https://www.perukirjakone.fi" rel="noopener noreferrer" target="_blank" className={style.projectLink}>
           <Typography variant="h6" >Visit</Typography>
         </a>
@@ -38,9 +38,7 @@ const Testamenttikone = () => {
         <Grid item xs={12} sm={6} md={6} lg={6}>
           <Paper className={clsx(style.paper, style.background)}>
             <Typography variant="h4" className={style.projectDesc}>
-              Perukirajone wants to revolutionize how last wills are created, disrupting legal
-              contracts with the help of the technology. I helped Perukirjakone team to realised their
-              dream.
+              Muuvz is my own side project. It's a marketplace to search, compare, book moving vans. It was created of my necessity while I was moving from Turku to Helsinki.
             </Typography>
           </Paper>
         </Grid>
@@ -88,40 +86,52 @@ const Testamenttikone = () => {
              <List>
                <ListItem>
                   <ListItemText
-                    primary="- UI/UX"
+                    primary="- User (mover) dashboard"
                     className={style.listItemSpecs}
                   />
                 </ListItem>
                 <ListItem>
                   <ListItemText
-                     primary="- Record last will via wizard form"
+                     primary="- Moving company dashboard"
                      className={style.listItemSpecs}
                   />
                 </ListItem>
                 <ListItem>
                   <ListItemText
-                     primary="- Generate PDF from document"
+                     primary="- Search moving vans"
                      className={style.listItemSpecs}
                   />
                 </ListItem>
                 <ListItem>
                   <ListItemText
-                     primary="- Send email"
+                     primary="- List moving vans"
                      className={style.listItemSpecs}
                   />
                 </ListItem>
                 <ListItem>
                   <ListItemText
-                     primary="- Create account/resend validation code"
+                     primary="- Booking moving vans"
                      className={style.listItemSpecs}
                   />
                 </ListItem>
                 <ListItem>
                   <ListItemText
-                     primary="- Access document with email & code"
+                     primary="- Manage listing of moving vans"
                      className={style.listItemSpecs}
                   />
                 </ListItem>
+                 <ListItem>
+                     <ListItemText
+                         primary="- Add, Modify, Delete moving vans"
+                         className={style.listItemSpecs}
+                     />
+                 </ListItem>
+                 <ListItem>
+                     <ListItemText
+                         primary="- Show vans availability on calendar"
+                         className={style.listItemSpecs}
+                     />
+                 </ListItem>
              </List>
             </div>
           </Paper>
@@ -175,6 +185,12 @@ const Testamenttikone = () => {
                      className={style.listItemSpecs}
                   />
                 </ListItem>
+                 <ListItem>
+                     <ListItemText
+                         primary="- React Calendar"
+                         className={style.listItemSpecs}
+                     />
+                 </ListItem>
              </List>
             </div>
           </Paper>
@@ -198,7 +214,7 @@ const Testamenttikone = () => {
           <CardMedia
             component="img"
             alt="Contemplative Reptile"
-            image={PerukirjakoneImg}
+            image={MuuvzBg}
             title="Contemplative Reptile"
             className={style.media}
           />
@@ -225,12 +241,7 @@ const Testamenttikone = () => {
         <Grid item xs={12} sm={6} md={6} lg={6}>
           <Paper className={style.paper}>
             <Typography className={style.challengeDesc}>
-              Automating legal contract especially person's last will is not an easy job. There
-              were more than 100+ inputs, add/remove fields feature. Handling these trendemous inputs smoothly on the fly was the
-              corner stone of the product success.
-              We research all possible inputs, categorised them and based on relevance, organise inputs into
-              wizard form (stepper). The end result was functional, user can fill limited number of fields at a given
-              time, transition to next step flawleslly.
+              Building moving vans marketplace was challenging at the same time fun. I learned a lot. Project is still under development and will be released soon.
             </Typography>
           </Paper>
         </Grid>
