@@ -2,7 +2,7 @@ import React from 'react';
 import { SkillStyle } from '../Style/Index';
 import { Grid, Typography } from '@material-ui/core';
 import { ReactImage, AngularImage, TypeScript, ReactJS, NodeJs, MongoDb } from '../Constants/Images';
-const Skills: React.FC<{}> = () => {
+const Skills = () => {
   const style = SkillStyle();
   return (
     <div className={style.container}>

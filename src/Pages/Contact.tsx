@@ -1,19 +1,12 @@
 import * as React from 'react';
 import { ContactStyle } from '../Style/Index';
 import { Typography, Grid, TextField, Button } from '@material-ui/core';
-import {
-  LocationOnOutlined,
-  PhoneIphoneOutlined,
-  EmailOutlined,
-  HomeOutlined
-} from '@material-ui/icons';
+
 import CircularProgress from '@material-ui/core/CircularProgress';
 
 import emailjs from 'emailjs-com'
 
-import apiKeys from '../apiKeys'
-
-const Contact: React.FC<{}> = () => {
+const Contact = () => {
   const style = ContactStyle();
   const [message, setMessage] = React.useState();
   const [email, setEmail] = React.useState();

@@ -1,21 +1,18 @@
 import * as React from 'react';
-import { Link } from 'react-router-dom';
 import CardMedia from "@material-ui/core/CardMedia";
 import Paper from "@material-ui/core/Paper";
-import CssBaseline from "@material-ui/core/CssBaseline";
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 
 import clsx from 'clsx';
 
-import { ProfileBW } from '../Constants/Images';
-import { PerukirjakoneImg, Peruwizard, BlockbankLogo, BlockbankHeadings, BlockbankColor } from '../Constants/Images';
+import {  BlockbankLogo, BlockbankHeadings, BlockbankColor } from '../Constants/Images';
 
-import { Grid, Typography, Button } from '@material-ui/core';
+import { Grid, Typography } from '@material-ui/core';
 import { Workdetails } from '../Style/Index';
 
-const Blockbank: React.FunctionComponent<{}> = () => {
+const Blockbank = () => {
   const style = Workdetails();
   return (
     <div className={style.root}>

@@ -1,11 +1,7 @@
 import React from 'react';
 import { ExperienceStyle } from '../Style/Index';
 import { Typography } from '@material-ui/core';
-import {
-  DeveloperBoardOutlined,
-  CollectionsOutlined,
-  CreditCardOutlined
-} from '@material-ui/icons';
+
 import Avatar from '@material-ui/core/Avatar';
 import Chip from '@material-ui/core/Chip';
 
@@ -16,9 +12,8 @@ import { NorthCatalyst } from '../Constants/Images';
 import { NVF } from '../Constants/Images';
 import { crowdTOD } from '../Constants/Images';
 import { Bioscience } from '../Constants/Images';
-import colors from '../Constants/Colors';
 
-const Experience: React.FC<{}> = () => {
+const Experience = () => {
   const style = ExperienceStyle();
   return (
     <div className={style.container}>

@@ -5,7 +5,7 @@ import { FullPortrait } from '../Constants/Images';
 import signature from '../Images/signature.png';
 import { DesktopWindows, PhoneIphone } from '@material-ui/icons';
 
-const About: React.FC<{}> = () => {
+const About = () => {
   const style = AboutStyle();
   const DetailRender = (title: string, text: string) => {
     return (
